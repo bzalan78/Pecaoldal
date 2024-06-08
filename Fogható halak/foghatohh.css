@@ -44,3 +44,39 @@ img {
     right: 15%;
     
 }
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    margin: 5%;
+    font-size: calc(1rem + 3vw); 
+}
+.card-img-container {
+    background-color: rgba(37, 37, 82,0.4); 
+    height: 20%;
+    width: 100%;
+}
+
+.card-text {
+    color: white; 
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: calc(1rem + 0.5vw); 
+}
+
+
+.card {
+    background-color: rgba(177, 177, 255, 0.5); 
+    color: white; 
+}
+
+.card-text {
+    background-color: rgba(87, 154, 255, 0.5); 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+.card-img-top{
+    width: 95%;
+    height: 10%;
+
+}
