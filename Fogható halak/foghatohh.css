@@ -1,5 +1,5 @@
 body {
-    background-image: url(/kepek/hatter.jpg); 
+    background-image: url(../kepek/hatter.jpg); 
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
@@ -18,8 +18,8 @@ body {
 }
 
 img {
-    height: 5%;
-    margin: 4%;
+    height: 13vw;
+    margin: 2%;
 }
 
 .nav-links {
@@ -30,17 +30,17 @@ img {
 
 .nav-link {
     color: white;
-    font-size: calc(1rem + 2vw); 
+    font-size: calc(1rem + 4vw); 
     text-decoration: none;
     margin-left: 20px;
     font-family: Impact;
 }
 #f{
     position: absolute;
-    right: 60%;
+    right: 55%;
 }
 #t{
     position: absolute;
-    right: 20%;
+    right: 15%;
     
 }
