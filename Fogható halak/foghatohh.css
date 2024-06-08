@@ -55,6 +55,7 @@ h2{
     background-color: rgba(37, 37, 82,0.4); 
     height: 20%;
     width: 100%;
+    margin: 1px;
 }
 
 .card-text {
@@ -74,7 +75,7 @@ h2{
 .card-text {
     background-color: rgba(87, 154, 255, 0.5); 
     padding: 10px; 
-    border-radius: 5px; 
+    border-radius: 10px; 
 }
 .card-img-top{
     width: 95%;
