@@ -64,6 +64,8 @@ h2{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-size: calc(1rem + 0.5vw); 
+    padding: 10px; 
+    border-radius: 10px; 
 }
 
 
@@ -73,11 +75,8 @@ h2{
     margin-bottom: 20px
 }
 
-.card-text {
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 10px; 
-    border-radius: 10px; 
-}
+
+
 .card-img-top{
     width: 95%;
     height: 10%;
