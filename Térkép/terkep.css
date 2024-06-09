@@ -36,10 +36,7 @@ body{
 img {
     height: 13vw;
     margin: 2%;
-}
-img {
-    height: 13vw;
-    margin: 2%;
+
 }
 #Image1{
     position: absolute;
@@ -76,7 +73,7 @@ float: right;
     background: rgba(0, 0, 0, 0.59);
     border-radius: 40px;
     float: right;
-    max-width: 569px
+    max-width: 569px;
    
 }
 .Rectangle3{
@@ -86,6 +83,23 @@ float: right;
     border-radius: 45px;
     float: left;
     max-width: 569px;
+
  
 }
+.Rectangle2, .Rectangle3 {
+    width: 90%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.59);
+    border-radius: 40px;
+    max-width: 569px;
+    margin: 0 auto;
+}
 
+.szoveg1, .szoveg2 {
+    color: white;
+    font-size: 20px;
+    font-family: Inknut Antiqua;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 20px; }
