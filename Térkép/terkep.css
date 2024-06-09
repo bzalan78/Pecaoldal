@@ -54,61 +54,47 @@ img {
 width: 583px;
 height: 144px;
 color: white;
-font-size: 20px;    
-font-family: Inknut Antiqua; font-weight: 400;
+font-size: 2vw;    
+font-family: Inknut Antiqua; font-weight: 4vw;
 word-wrap: break-word;
-text-align: center;
-margin: 9px;
+text-align: justify;
+margin: 1%;
+
 }
 .szoveg2{
 width: 545px;
 height: 100px;
 color: white;
-font-size: 20px; font-family: Inknut Antiqua; font-weight: 400;
+font-size: 2vw;
+ font-family: Inknut Antiqua; font-weight: 4vw;
 word-wrap: break-word;
-text-align: center;
-margin: 9px;
+text-align: justify;
+margin: 1%;
 }
 .Rectangle2{
     position: relative;
     width: calc(1rem + 60vw);
-    height: auto;
+    height:calc(1rem + 20vw) ;
     background: rgba(0, 0, 0, 0.59);
     border-radius: 40px;
-    float: right;
-    max-width: 569px;
+    float: left;
+    max-width: 500px;
+    
     margin: 1%;
-    margin-right: 7%;
+    margin-right: 10%;
     margin-top: 5%;
    
 }
 .Rectangle3{
     position: relative;
     width: calc(1rem + 60vw);
-    height: auto;
+    height: calc(1rem + 20vw);
     background: rgba(0, 0, 0, 0.59);
-    border-radius: 45px;
-    float: left;
-    max-width: 569px;
+    border-radius: 40px;
+    float: right;
+    max-width: 500px;
    margin: 1%;
-   margin-left: 7%;
+   margin-left: 10%;
    margin-top: 5%;
  
 }
-.Rectangle2, .Rectangle3 {
-    width: 90%;
-    height: auto;
-    background: rgba(0, 0, 0, 0.59);
-    border-radius: 40px;
-    max-width: 569px;
-    margin: 0 auto;
-}
-
-.szoveg1, .szoveg2 {
-    color: white;
-    font-size: 20px;
-    font-family: Inknut Antiqua;
-    font-weight: 400;
-    word-wrap: break-word;
-    text-align: center;
-    padding: 20px; }
