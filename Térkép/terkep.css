@@ -42,7 +42,7 @@ img {
     margin: 2%;
 }
 #Image1{
-    position: absolute;
+    position: relative;
     width: 80%;
     height: calc(1rem + 50vw);
     border: 10px black solid;
@@ -61,6 +61,7 @@ font-size: 20px;
 font-family: Inknut Antiqua; font-weight: 400;
 word-wrap: break-word;
 text-align: center;
+margin: 9px;
 }
 .szoveg2{
 width: 545px;
@@ -68,24 +69,33 @@ height: 100px;
 color: white;
 font-size: 20px; font-family: Inknut Antiqua; font-weight: 400;
 word-wrap: break-word;
-float: right;
+text-align: center;
+margin: 9px;
 }
 .Rectangle2{
-    width: 90%;
+    position: relative;
+    width: calc(1rem + 60vw);
     height: auto;
     background: rgba(0, 0, 0, 0.59);
     border-radius: 40px;
     float: right;
-    max-width: 569px
+    max-width: 569px;
+    margin: 1%;
+    margin-right: 7%;
+    margin-top: 5%;
    
 }
 .Rectangle3{
-    width: 90%;
+    position: relative;
+    width: calc(1rem + 60vw);
     height: auto;
     background: rgba(0, 0, 0, 0.59);
     border-radius: 45px;
     float: left;
     max-width: 569px;
+   margin: 1%;
+   margin-left: 7%;
+   margin-top: 5%;
  
 }
 
