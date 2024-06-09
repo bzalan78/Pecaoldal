@@ -1,3 +1,6 @@
+body{
+    background-color: grey;
+}
 .navbar-custom {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 10px 0;
@@ -34,14 +37,55 @@ img {
     height: 13vw;
     margin: 2%;
 }
-.Image1{
-    width: 1301px; 
-    height: 551.88px; 
+img {
+    height: 13vw;
+    margin: 2%;
+}
+#Image1{
+    position: absolute;
+    width: 80%;
+    height: calc(1rem + 50vw);
     border: 10px black solid;
     border-radius: 30px ;
     text-align: center;
-
-
-    
+    left: 8%;
+ 
+ 
+   
+}
+.szoveg1{
+width: 583px;
+height: 144px;
+color: white;
+font-size: 20px;    
+font-family: Inknut Antiqua; font-weight: 400;
+word-wrap: break-word;
+text-align: center;
+}
+.szoveg2{
+width: 545px;
+height: 100px;
+color: white;
+font-size: 20px; font-family: Inknut Antiqua; font-weight: 400;
+word-wrap: break-word;
+float: right;
+}
+.Rectangle2{
+    width: 90%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.59);
+    border-radius: 40px;
+    float: right;
+    max-width: 569px
+   
+}
+.Rectangle3{
+    width: 90%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.59);
+    border-radius: 45px;
+    float: left;
+    max-width: 569px;
+ 
 }
 
