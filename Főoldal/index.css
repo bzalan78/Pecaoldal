@@ -1,10 +1,12 @@
 body {
+    height: 100%;
     padding: 0;
     margin: 0;
     background-image: url(../kepek/hatter.jpg); 
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
+    overflow: auto;
 }
 .navbar-custom {
     background-color: rgba(0, 0, 0, 0.8);
@@ -45,4 +47,47 @@ img {
 #t{
     position: absolute;
     right: 15%;
+}
+
+#tartalom{
+    height: 100%;
+}
+
+#szoveg{
+    color: white;
+    text-align: justify;
+    vertical-align: middle;
+    font-size: calc(1rem + 1vw);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 15vh;
+    line-height: 7vh;
+}
+
+#focim{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: calc(1rem + 2vw);
+    margin-top: 8vh;
+}
+
+#hid{
+    height: 25%;
+    margin-top: 5vh;
+    box-shadow: 1px black;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 990px) {
+    #hid{
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+}
+
+@media screen and (min-width: 995px) {
+    body{
+        overflow: hidden;
+    }
 }
