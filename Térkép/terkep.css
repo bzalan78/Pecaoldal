@@ -39,12 +39,14 @@ img {
     margin: 2%;
 }
 .Image1{
-    width: 1301px; 
-    height: 551.88px; 
+    width: 1301px;
+    height: 551.88px;
     border: 10px black solid;
-    border-radius: 30px ;
-    text-align: center;
+    border-radius: 30px;
     margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 
     
